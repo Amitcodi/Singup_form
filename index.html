@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up Form</title>
+    <title>Calculater </title>
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
 </head>
-
 <body>
-    <div class="container">
-        <div class="form-box">
-            <header>
-                <h1>Login</h1>
-            </header>
-            <form action="">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Username">
-                <input type="password" placeholder="password">
-                <a href="#">Forgot password ?</a>
-                <input type="button" value="Login" id="sub" onclick="submit()">
-                <div class="link">
-                    <a href="#">
-                        <img src="./img/google-logo-9812.png" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="./img/google-logo-9825.png" alt="">
-                    </a>
-                </div>
-                <p class="signup">Not a Menber?
-                    <a href="#">SingUp Now</a>
-                </p>
-
-            </form>
+    <div class="cal">
+        <input type="text" placeholder="0" id="box">
+        <div>
+            <button class="op">AC</button>
+            <button class="op">DEL</button>
+            <button class="op">%</button>
+            <button class="op">/</button>
+        </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="op">*</button>
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="op">-</button>
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="op">+</button>
+        </div>
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button class="op">.</button>
+            <button class="eq">=</button>
         </div>
     </div>
-
+    <script src="./script.js"></script>
 </body>
-
 </html>
